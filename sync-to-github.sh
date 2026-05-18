@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # Syncs project and Claude memory to GitHub
 
-PROJECT_DIR="/home/charlievallone/projects/pios-company-test"
-MEMORY_DIR="/home/charlievallone/.claude/projects/-home-charlievallone-projects-pios-company-test/memory"
+PROJECT_DIR="/home/charlievallone/projects/digital-marketing-services"
+MEMORY_DIR="/home/charlievallone/.claude/projects/-home-charlievallone-projects-digital-marketing-services/memory"
 LOG="$PROJECT_DIR/.sync.log"
 
 cd "$PROJECT_DIR" || exit 1
